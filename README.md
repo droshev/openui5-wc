@@ -14,23 +14,6 @@ npm install --global @ui5/cli
 
 ## Setup
 
-1. Clone the repository and navigate into it
-    ```sh
-    git clone https://github.com/SAP/openui5-basic-template-app.git
-    cd openui5-basic-template-app
-    ```
-1. Install all dependencies
-
-    ```sh
-    npm install
-    ```
-
-1. Start a local server and run the application (http://localhost:8080/index.html)
-
-    ```sh
-    ui5 serve -o /index.html
-    ```
-
 1. new run:
 
 ```

@@ -3,6 +3,7 @@
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta charset="UTF-8" />
+        <base href="/" />
 
         <title>Basic Template</title>
 
@@ -10,13 +11,14 @@
             id="sap-ui-bootstrap"
             src="resources/sap-ui-custom.js"
             data-sap-ui-libs="sap.m"
-            data-sap-ui-theme="sap_belize"
+            data-sap-ui-theme="sap_fiori_3"
             data-sap-ui-compatVersion="edge"
             data-sap-ui-preload="async"
             data-sap-ui-resourceroots="{&quot;sap.ui.demo.basicTemplate&quot;: &quot;./&quot;}"
         ></script>
 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="wc/elements.css" />
 
         <script>
             sap.ui.getCore().attachInit(function() {
@@ -62,6 +64,13 @@
     </head>
 
     <body class="sapUiBody" id="content">
-        <button>not a ui5 button</button>
+        <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.0.3/custom-elements-es5-adapter.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/zone.js"></script>
+        <script src="wc/elements.js"></script>
+        <button>non ui5 button</button>
+        <app-root>
+            <made-for-badge status="warning">Badge</made-for-badge><br />
+            <made-for-label status="success">Label</made-for-label><br />
+        </app-root>
     </body>
 </html>
