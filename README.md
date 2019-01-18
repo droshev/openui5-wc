@@ -9,7 +9,7 @@ For installation instructions please see [Installing the UI5 CLI](https://github
 https://github.com/SAP/ui5-cli#cli-usage
 
 ```
-npm install --global @ui5/cli
+npm install --global @ui5/cli serve
 ```
 
 ## Setup
