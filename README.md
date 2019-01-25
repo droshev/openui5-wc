@@ -15,6 +15,15 @@ npm install --global @ui5/cli serve
 ```
 ui5 build --all
 ui5 build self-contained --all
+```
+
+or
+
+```
+ui5 build --all && ui5 build self-contained --all
+```
+
+```
 cd dist
 serve
 ```
