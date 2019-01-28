@@ -1,6 +1,8 @@
 <mvc:View
 	controllerName="sap.ui.demo.basicTemplate.controller.App"
 	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:m="sap.m"
+	xmlns:wc="sap.ui.demo.basicTemplate.control"
 	displayBlock="true"
 	xmlns="sap.m">
 	<App>
@@ -8,7 +10,10 @@
 			<Page
 				id="page"
 				title="{i18n>title}">
-				<content></content>
+				<content>
+					<wc:Badge/>
+					<m:Button text="test btn"/>
+				</content>
 			</Page>
 		</pages>
 	</App>
